@@ -1,0 +1,31 @@
+#! /usr/bin/ruby
+
+#Boss
+
+puts 'お前の望みはなんだ？'
+request = gets.chomp.to_s
+puts 'なにぃ?' +  '"' + request + '"' + 'だとー!!　お前はもう首だ!!'
+
+
+#Ajenda
+
+lineWidth = 20
+ajenda = '目次'
+ajenda1 = '1章: 数'
+ajenda2 = '2章: 文字'
+ajenda3 = '3章: 変数'
+ajenda4 = 'p.1'
+ajenda5 = 'p.72'
+ajenda6 = 'p.118'
+
+puts ajenda.center lineWidth
+puts ajenda1.ljust(lineWidth) + ajenda4.rjust(lineWidth)
+puts ajenda2.ljust(lineWidth) + ajenda5.rjust(lineWidth)
+puts ajenda3.ljust(lineWidth) + ajenda6.rjust(lineWidth) 
+
+
+
+
+
+
+
