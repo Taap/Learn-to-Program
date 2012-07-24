@@ -6,4 +6,7 @@ puts 'What is your firtsname?'
 first_name = gets.chomp
 full_name = first_name + ' ' + last_name
 puts 'Your name is ' +  full_name
-
+puts 'Your name is ' +  full_name
+puts 'Your name is ' +  full_name
+puts 'Your name is ' +  full_name
+puts 'Your name is ' +  full_name
